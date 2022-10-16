@@ -1,7 +1,9 @@
 package com.spring.book.web.dto;
 
 import com.spring.book.domain.posts.Posts;
+import lombok.Getter;
 
+@Getter
 public class PostsResponseDto {
     private Long id;
     private String title;
