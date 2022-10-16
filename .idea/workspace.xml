@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="post API">
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="수정/조회 API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/PostsApiControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/PostsApiControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/dto/PostsResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/dto/PostsResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/web/PostsApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/domain/posts/PostRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/domain/posts/PostRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,7 @@
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/새 스크래치 파일" value="GitIgnore" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/spring/book/web" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/spring/book/domain" />
     <property name="project.structure.last.edited" value="모듈" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -154,7 +152,7 @@
       <recent name="com.spring.book.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
+  <component name="RunManager" selected="JUnit.PostRepositoryTest.BaseTimeEntity_등록">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.book.Application" />
       <module name="springboot2-webservice.main" />
@@ -168,29 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.spring.book.web.PostsApiControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PostRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot2-webservice.test" />
       <extension name="coverage">
@@ -202,6 +177,22 @@
       <option name="PACKAGE_NAME" value="com.spring.book.domain.posts" />
       <option name="MAIN_CLASS_NAME" value="com.spring.book.domain.posts.PostRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRepositoryTest.BaseTimeEntity_등록" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.book.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.book.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.book.domain.posts.PostRepositoryTest" />
+      <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="애플리케이션.Application" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
         <item itemvalue="JUnit.PostRepositoryTest" />
         <item itemvalue="JUnit.PostsApiControllerTest" />
-        <item itemvalue="Gradle.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663108446697</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="수정/조회 API">
+      <created>1665891021286</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665891021286</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +338,7 @@
     <MESSAGE value="Junit4 version" />
     <MESSAGE value="Mysql log" />
     <MESSAGE value="post API" />
-    <option name="LAST_COMMIT_MESSAGE" value="post API" />
+    <MESSAGE value="수정/조회 API" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정/조회 API" />
   </component>
 </project>
