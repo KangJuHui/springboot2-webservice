@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="수정/조회 API">
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="JPA Auditing으로 생성시간/수정시간 자동화하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/web/IndexControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/domain/posts/PostRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/domain/posts/PostRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
     <property name="project.structure.last.edited" value="모듈" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -152,7 +152,7 @@
       <recent name="com.spring.book.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRepositoryTest.BaseTimeEntity_등록">
+  <component name="RunManager" selected="애플리케이션.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.book.Application" />
       <module name="springboot2-webservice.main" />
@@ -162,6 +162,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.book.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.book.web" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.book.web.IndexControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,21 +212,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.book.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.book.web" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.book.web.PostsApiControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot2-webservice.test" />
       <extension name="coverage">
@@ -230,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="애플리케이션.Application" />
+        <item itemvalue="JUnit.IndexControllerTest" />
+        <item itemvalue="JUnit.PostRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
         <item itemvalue="JUnit.PostRepositoryTest" />
-        <item itemvalue="JUnit.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665891021286</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JPA Auditing으로 생성시간/수정시간 자동화하기">
+      <created>1665907166004</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665907166004</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,6 +346,7 @@
     <MESSAGE value="Mysql log" />
     <MESSAGE value="post API" />
     <MESSAGE value="수정/조회 API" />
-    <option name="LAST_COMMIT_MESSAGE" value="수정/조회 API" />
+    <MESSAGE value="JPA Auditing으로 생성시간/수정시간 자동화하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA Auditing으로 생성시간/수정시간 자동화하기" />
   </component>
 </project>
