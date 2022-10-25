@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="JPA Auditing으로 생성시간/수정시간 자동화하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/web/IndexControllerTest.java" afterDir="false" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="mustache 설정 및 테스트 코드">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +326,42 @@
       <option name="project" value="LOCAL" />
       <updated>1665907166004</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="PostsUpdateDto">
+      <created>1666566222663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666566222663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="JAVA Auditing으로 생성시간/수정시간 자동화">
+      <created>1666566304011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666566304011</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sql log &amp; h2 console 설정">
+      <created>1666566423324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666566423324</updated>
+    </task>
+    <task id="LOCAL-00015" summary="JPA Auditing 테스트 코드">
+      <created>1666566502673</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666566502673</updated>
+    </task>
+    <task id="LOCAL-00016" summary="mustache 설정 및 테스트 코드">
+      <created>1666566540404</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666566540404</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +384,11 @@
     <MESSAGE value="post API" />
     <MESSAGE value="수정/조회 API" />
     <MESSAGE value="JPA Auditing으로 생성시간/수정시간 자동화하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA Auditing으로 생성시간/수정시간 자동화하기" />
+    <MESSAGE value="PostsUpdateDto" />
+    <MESSAGE value="JAVA Auditing으로 생성시간/수정시간 자동화" />
+    <MESSAGE value="sql log &amp; h2 console 설정" />
+    <MESSAGE value="JPA Auditing 테스트 코드" />
+    <MESSAGE value="mustache 설정 및 테스트 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="mustache 설정 및 테스트 코드" />
   </component>
 </project>
