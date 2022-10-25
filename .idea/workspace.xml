@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="mustache 설정 및 테스트 코드">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="게시글 등록 화면 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/dto/PostsListResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
@@ -361,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666566540404</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="게시글 등록 화면 구현">
+      <created>1666698522417</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666698522417</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +393,7 @@
     <MESSAGE value="sql log &amp; h2 console 설정" />
     <MESSAGE value="JPA Auditing 테스트 코드" />
     <MESSAGE value="mustache 설정 및 테스트 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="mustache 설정 및 테스트 코드" />
+    <MESSAGE value="게시글 등록 화면 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시글 등록 화면 구현" />
   </component>
 </project>
