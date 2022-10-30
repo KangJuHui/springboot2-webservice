@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="게시글 등록 화면 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/dto/PostsListResponseDto.java" afterDir="false" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="게시글 전체 조회 화면 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/posts/PostsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -365,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666698522417</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="게시글 전체 조회 화면 구현">
+      <created>1666703996032</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666703996032</updated>
+    </task>
+    <task id="LOCAL-00019" summary="게시글 전체 조회 화면 구현">
+      <created>1666704011385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666704011385</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +407,7 @@
     <MESSAGE value="JPA Auditing 테스트 코드" />
     <MESSAGE value="mustache 설정 및 테스트 코드" />
     <MESSAGE value="게시글 등록 화면 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시글 등록 화면 구현" />
+    <MESSAGE value="게시글 전체 조회 화면 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시글 전체 조회 화면 구현" />
   </component>
 </project>
