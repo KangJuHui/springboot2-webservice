@@ -35,7 +35,6 @@ public class PostsApiController {
 
     @DeleteMapping("/api/v1/posts/{id}")
     public Long delete(@PathVariable Long id) {
-        System.out.println("controller delete 함수 진입");
         postsService.delete(id);
         return id;
     }
