@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="게시글 삭제 화면 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/CustomOAuth2UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/SessionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/domain/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/SessionUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668233470471</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="OAuth 로그인 API 구현">
+      <created>1668953678476</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668953678476</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,6 +430,7 @@
     <MESSAGE value="게시글 전체 조회 화면 구현" />
     <MESSAGE value="게시글 수정 화면 구현" />
     <MESSAGE value="게시글 삭제 화면 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시글 삭제 화면 구현" />
+    <MESSAGE value="OAuth 로그인 API 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="OAuth 로그인 API 구현" />
   </component>
 </project>
