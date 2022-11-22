@@ -24,6 +24,7 @@ public class OAuthAttributes {
         this.picture = picture;
     }
 
+    //OAuth2User에서 반환하는 사용자 정보는 Map이기 떄문에 값을 하나하나 변환해야 함.
     public static OAuthAttributes of(String registrationId, String userNameAttributeName, Map<String, Object> attributes){
         return OAuthAttributes.builder()
                 .name((String) attributes.get("name"))
@@ -34,6 +35,7 @@ public class OAuthAttributes {
                 .build();
     }
 
+    //User 엔티티를 생성
     public User toEntity(){
          return User.builder()
                  .name(name)

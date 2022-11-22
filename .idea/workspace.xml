@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현">
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현 - 화면 구성, 오타 수정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/SessionUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/CustomOAuth2UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/CustomOAuth2UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/CustomOAuth2UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/OAuthAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +154,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.spring.book.config" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.spring.book.springboot.web.dto" />
@@ -398,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668953678476</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="OAuth 로그인 API 구현 - 화면 구성, 오타 수정">
+      <created>1669002459937</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669002459937</updated>
+    </task>
+    <task id="LOCAL-00024" summary="OAuth 로그인 API 구현 - 화면 구성, 오타 수정">
+      <created>1669002502092</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669002502092</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,6 +458,7 @@
     <MESSAGE value="게시글 수정 화면 구현" />
     <MESSAGE value="게시글 삭제 화면 구현" />
     <MESSAGE value="OAuth 로그인 API 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="OAuth 로그인 API 구현" />
+    <MESSAGE value="OAuth 로그인 API 구현 - 화면 구성, 오타 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="OAuth 로그인 API 구현 - 화면 구성, 오타 수정" />
   </component>
 </project>

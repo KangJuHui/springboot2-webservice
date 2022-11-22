@@ -1,5 +1,6 @@
 package com.spring.book.web;
 
+import com.spring.book.config.auth.LoginUser;
 import com.spring.book.config.auth.dto.SessionUser;
 import com.spring.book.service.posts.PostsService;
 import com.spring.book.web.dto.PostsResponseDto;
@@ -9,21 +10,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.servlet.http.HttpSession;
-
 @RequiredArgsConstructor
 @Controller
 public class IndexController {
 
     private final PostsService postsService; //@RequiredArgsConstructor 생성자로 초기화함.
-    private final HttpSession httpSession;
+    //private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
 
         //로그인 시작
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+        //SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if (user != null) {
             model.addAttribute("userName", user.getName());
         }
