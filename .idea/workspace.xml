@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현 - 어노테이션 기반 코드 개선, 세션 저장소로 데이터베이스 이용하기" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현 - 어노테이션 기반 코드 개선, 세션 저장소로 데이터베이스 이용하기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/config/auth/dto/OAuthAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -417,8 +424,26 @@
       <option name="project" value="LOCAL" />
       <updated>1669121236946</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="OAuth 로그인 API 구현 - 어노테이션 기반 코드 개선, 세션 저장소로 데이터베이스 이용하기">
+      <created>1669121302735</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121302735</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
