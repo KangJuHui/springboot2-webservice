@@ -4,7 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현 - 네이버 로그인 API 추가" />
+    <list default="true" id="59266d8f-0c36-4472-bbf6-0cc6aa50f45a" name="변경" comment="OAuth 로그인 API 구현 - 네이버 로그인 API 추가">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/Posts$PostsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/Posts$PostsBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/Posts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/PostsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/domain/posts/PostsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/service/posts/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/service/posts/PostsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/PostsApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/PostsApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/HelloResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/HelloResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/PostsSaveRequestDto$PostsSaveRequestDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/PostsSaveRequestDto$PostsSaveRequestDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/PostsSaveRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spring/book/web/dto/PostsSaveRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/domain/posts/PostRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/domain/posts/PostRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/dto/HelloResponseDtoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/dto/HelloResponseDtoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/web/PostsApiControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/spring/book/web/PostsApiControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/CustomOAuth2UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/CustomOAuth2UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/LoginUserArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/LoginUserArgumentResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes$OAuthAttributesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes$OAuthAttributesBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/OAuthAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/SessionUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/config/auth/dto/SessionUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/BaseTimeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/BaseTimeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts$PostsBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/Posts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/PostsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/posts/PostsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/domain/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/service/posts/PostsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/PostsApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/HelloResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/HelloResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsListResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsListResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsSaveRequestDto$PostsSaveRequestDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsSaveRequestDto$PostsSaveRequestDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsSaveRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsSaveRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsUpdateRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/spring/book/web/dto/PostsUpdateRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/domain/posts/PostRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/dto/HelloResponseDtoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/dto/HelloResponseDtoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/IndexControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/IndexControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/PostsApiControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/spring/book/web/PostsApiControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/book/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/web/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/web/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/book/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/book/web/PostsApiControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,25 +102,34 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="junit:junit:4.13.2" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot2-webservice" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="junit:junit:4.13.2" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+                <item name="org.hamcrest:hamcrest-core:2.2" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -131,7 +203,7 @@
     <property name="project.structure.last.edited" value="모듈" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -140,6 +212,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.spring.book.config" />
     </key>
@@ -147,21 +223,8 @@
       <recent name="com.spring.book.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.book.Application" />
-      <module name="springboot2-webservice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.springboot2-webservice.test의 전부 (1)">
+    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
@@ -170,38 +233,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.spring.book.web" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.book.web.IndexControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.book.web.PostsApiControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.book.domain.posts.*" />
+          <option name="PATTERN" value="com.spring.book.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.book.domain.posts" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.book.domain.posts.PostRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostRepositoryTest.BaseTimeEntity_등록" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.book.domain.posts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.book.domain.posts" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.book.domain.posts.PostRepositoryTest" />
-      <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
+      <option name="PACKAGE_NAME" value="com.spring.book.web" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.book.web.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_수정된다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,13 +271,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="springboot2-webservice.test의 전부 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-webservice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springboot2-webservice.test의 전부 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-webservice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springboot2-webservice.test의 전부" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-webservice.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Application" />
-        <item itemvalue="JUnit.IndexControllerTest" />
-        <item itemvalue="JUnit.PostRepositoryTest.BaseTimeEntity_등록" />
+        <item itemvalue="JUnit.springboot2-webservice.test의 전부 (1)" />
+        <item itemvalue="JUnit.springboot2-webservice.test의 전부 (3)" />
+        <item itemvalue="JUnit.springboot2-webservice.test의 전부" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
-        <item itemvalue="JUnit.PostRepositoryTest" />
+        <item itemvalue="JUnit.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669727305384</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="OAuth 로그인 API 구현 - 네이버 로그인 API 추가">
+      <created>1669727379995</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669727379995</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -479,5 +558,16 @@
     <MESSAGE value="OAuth 로그인 API 구현 - 어노테이션 기반 코드 개선, 세션 저장소로 데이터베이스 이용하기" />
     <MESSAGE value="OAuth 로그인 API 구현 - 네이버 로그인 API 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="OAuth 로그인 API 구현 - 네이버 로그인 API 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/book/web/PostsApiController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
