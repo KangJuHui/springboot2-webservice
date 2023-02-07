@@ -39,6 +39,9 @@ dependencies {
     //spring-session-jdbc
     implementation ('org.springframework.session:spring-session-jdbc')
     //implementation 'org.springframework.session:spring-session-jdbc:2.7.5.RELEASE'
+
+    //use mariadb in RDS
+    implementation ('org.mariadb.jdbc:mariadb-java-client')
 }
 
 test {
