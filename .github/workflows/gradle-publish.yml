@@ -38,10 +38,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-
-    - name: Grant execute permission for gradlew
-      run: chmod +x ./gradlew
-      shell: bash
       
     #7. gradle wrapper를 실행할 수 있도록 실행 권한을 부여한다.
     - name: Grant execute permission for gradlew
